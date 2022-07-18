@@ -29,7 +29,7 @@ function Image() {
         <article className="image">
             <div className="image__header">
                 <figure className="image__figure">
-                    <img src="https://w.namu.la/s/1bd87f4ee76457e83afbf1f95eb34f3ea5656e6120877a68884b249522d48adb68ccbd1be31786eb86298b307ad43ce83a8fe33507cabe02860070cf11cbd927740381c5a4ffd3e63826ed5dea6f6d5c366ee628acceb68bd3e3f893f6459a8b" alt="애교만점 웰시코기"/>
+                    <img src="https://img.hankyung.com/photo/202111/p1065581082501208_548_thum.JPG" alt="애교만점 웰시코기"/>
                 </figure>
             </div>
             <div className="image__body">
