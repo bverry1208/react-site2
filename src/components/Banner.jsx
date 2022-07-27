@@ -1,5 +1,13 @@
 import React from 'react'
 
+const info = [
+    {
+        title: "YOUTUBE",
+        desc: "더 많은 노래는 유튜브에서 확인하실 수 있습니다.<br/>구독과 좋아요 알림 설정까지 ~!",
+        btn: "자세히 보기"
+    }
+]
+
 function Banner() {
   return (
     <>
@@ -9,12 +17,10 @@ function Banner() {
                 <div className="banner">
                     <div className="banner__img">
                         <div className="desc">
-                            <h3>YOUTUBE</h3>
-                            <p>더 많은 노래는 유튜브에서 확인하실 수 있습니다.<br/>
-                                구독과 좋아요 알림 설정까지 ~!
-                            </p>
+                            <h3>{info[0].title}</h3>
+                            <p>{info[0].desc}</p>
                             <div className="btn">
-                                <a href="#" className="white">자세히 보기</a>
+                                <a href="#" className="white">{info[0].btn}</a>
                             </div>
                         </div>
                     </div>
